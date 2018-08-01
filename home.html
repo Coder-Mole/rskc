@@ -23,49 +23,150 @@ END TEST-->
 <style type="text/css">
 * {
   font-family:Ariel, Verdana, sans-serif;
-  color: #665544;
-  text-align: center;}
-#nav, #feature, .article, #footer {
-  background-color: #efefef;
-  margin-top: 20px;
-  padding: 10px 0px 5px 0px;}
+  color: #000;
+  text-align: center;
+  }
+#tlNav {
+  position: relative;
+  float: left;
+  clear: none;
+  display: inline-block;
+  height: 77px;
+  background-color; #fff; 
+ }
+#trNav { 
+  position: relative;
+  float: left;
+  clear: none;
+  display: inline-block;
+  height: 77px;
+  background-color; #fff;
+ }
+#feature, .article, #footer {
+  background-color: #fff;
+  margin-top: 0px;
+  padding: 10px 0px 5px 0px;
+ }
+#topBar {
+  height: 80px;
+ } 
+#topImage {
+  height: 180px;
+ }
+#logo {
+  height: 77px;
+ }  
 #feature, .article {
-  height: 100px;}
+  height: 100px;
+ }
 li {
   display: inline;
-  padding: 5px}
+  padding: 5px
+ }
 </style>
 </head>
  
 <body>
-  <div class="container_12 clearfix">
-    <div id="header" class="grid_12">
-      <h1>Logo, FB Link and Search Box</h1>
-        <div id="nav">
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-      </div>
-    </div>
-    <div id="feature" class="grid_12">
+<!--Main Container (start)--> 
+ <div class="container_12 clearfix">
+
+<!--Top Bar (start)--> 
+ <div id="topBar" class="grid_12">
+  <p>Top Of Page - Logo?, FB Link, Search Box</p>
+ </div>
+<!--Top Bar (end)-->
+
+<!--Top Image (start)-->
+ <div id="topImage" class="grid_12">
+  <p>Top (Main) Image</p>
+ </div>
+<!--Top Image (end)-->   
+
+<!--Top Left Navigation (start)-->
+ <div id="tlNav" class="grid_4">
+	 <div class="menuHolder">
+   <ul class="menu">
+    <li><a href="index.html" class="red">Top Nav 1</a></li>
+  		<li><a href="index.html" class="orange">Top Nav 2</a></li>
+  		<li><a href="index.html" class="yellow">Top Nav 3</a></li>
+  		<li><a href="index.html" class="violet">Top Nav 4</a></li>
+  	</ul>
+ <div class="shadow"></div>
+  </div>
+ </div> 
+<!--Top Left Navigation (end)-->   
+
+<!--Top Center Logo (start)-->   
+ <div id="logo" class="grid_4">
+  <p>LOGO</p>
+ </div>
+<!--Top Center Logo (end)-->
+   
+<!--Top Right Navigation (start)-->
+ <div id="trNav" class="grid_4">
+  <ul> 
+   <li><a href="home.html">Top Nav 6</a></li>
+   <li><a href="home.html">Top Nav 7</a></li>
+   <li><a href="home.html">Top Nav 8</a></li>
+   <li><a href="home.html">Top Nav 9</a></li>
+   <li><a href="home.html">Top Nav 10</a></li>
+  </ul>
+ </div>
+<!--Top Left Navigation (end)-->
+   
+<!--Side Left Navigation (start)-->
+<div class="menuHolder2" "grid_5">
+	<ul class="menu2">
+    <li><a href="home.html" class="red">Left Nav 1</a></li>
+  		<li><a href="home.html" class="orange">Left Nav 2</a></li>
+  		<li><a href="home.html" class="yellow">Left Nav 3</a></li>
+  		<li><a href="home.html" class="violet">Left Nav 4</a></li>
+  		<li><a href="home.html" class="violet">Left Nav 5</a></li>
+  		<li><a href="home.html" class="violet">Left Nav 6</a></li>
+	</ul>
+<div class="shadow"></div>
+</div>
+<!--Side Left Navigation (end)-->   
+
+<!--Main Feature - Top (start)-->   
+    <div id="feature" class="grid_8">
         <p>Feature</p>
     </div>
+<!--Main Feature - Top (end)-->
+
+<!--Main Content Starts Here-->  
+<!--Column 1 (start)-->  
     <div class="article grid_4">
         <p>Column One</p>
     </div>
+<!--Column 1 (end)-->
+
+<!--Column 2 (start)-->  
     <div class="article grid_4">
         <p>Column Two</p>
     </div>
+<!--Column 2 (end)-->
+
+<!--Column 3 (start)-->  
     <div class="article grid_4">
         <p>Column Three</p>
     </div>
+<!--Column 3 (end)-->
+<!--Main Content Ends Here-->
+
+<!--Base Bar (start)-->
+    <div id="feature" class="grid_8">
+     <p>Base Bar</p>
+     <p>Be The Best You!</p>
+    </div>
+<!--Base Bar (end)-->  
+
+<!--Footer (start)-->  
     <div id="footer" class="grid_12">
         <p>&copy; Copyright 2018</p>
     </div>
+<!--Footer (end)-->
+  
   </div><!-- .container_12 -->
 </body>
 </html>
