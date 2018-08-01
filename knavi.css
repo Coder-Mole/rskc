@@ -33,15 +33,14 @@
 .menuHolder {
 	height: inherit;
 	overflow: hidden;
-	width: 900;
 	float: left;
 	top: 19px;
 	position: absolute;
-	width: 900px;
+	width: 300px; /*changed from 900px*/
 	clear: both;
-	min-width: 900px;
-	max-width: 900px;
-	background-color: #000; /*Added Test*/
+	min-width: 300px; /*changed from 900px*/
+	max-width: 300px; /*changed from 900px*/
+	background-color: #000; /*Added Color Chage Test*/
 }
 -----
 
@@ -50,7 +49,7 @@
 
 .menuHolder .shadow {
 	height:10px;
-	width:98%;
+	width:98%; /*changed from 98%*/
 	top:-9px;
 	position:absolute;
 	z-index:100;
@@ -70,7 +69,7 @@ ul.menu {
 	height: inherit;
 	position: static;
 	padding: 0px 0px 0px 35px;
-	width: 900px;
+	width: 300px; /*changed from 900px*/
 	clear: both;
 }
 
@@ -121,7 +120,7 @@ ul.menu li a.violet:hover {background:violet;}
 	float:left;
 	overflow:hidden;
 	width:220px;
-	height:430px;
+/*	height:430px; */
 	font:normal bold 11px/35px verdana, sans-serif;
 	clear: both;
 }
