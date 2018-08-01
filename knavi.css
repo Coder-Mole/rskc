@@ -41,6 +41,7 @@
 	clear: both;
 	min-width: 900px;
 	max-width: 900px;
+	background-color: #000; /*Added Test*/
 }
 -----
 
