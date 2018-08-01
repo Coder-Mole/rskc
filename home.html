@@ -1,178 +1,71 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-<title>RSKC - Home</title>
+ 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
+ 
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <!-- TEST IE VERSIONS
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
 END TEST-->
-
+ 
 <script type="text/javascript" src="//code.jquery.com/jquery-3.1.1.js"> </script>
-
+ 
+<title>RSKC - Home</title>
+ 
 <link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
-<link href="https://coder-mole.github.io/rskc/css/kstyle.css" rel="stylesheet" type="text/css" />
+    
+<link href="https://coder-mole.github.io/club-portal/css/kstyle.css" rel="stylesheet" type="text/css" />
 <link href="knavi.css" rel="stylesheet" type="text/css" />
-
+ 
 <style type="text/css">
 * {
   font-family:Ariel, Verdana, sans-serif;
   color: #665544;
   text-align: center;}
-body {
-  width: 1000px;
-  margin: 0 auto;}
-#content {
-  overflow: auto;
-  height: 100%;}
-#logo {
+#nav, #feature, .article, #footer {
   background-color: #efefef;
-  padding: 10px;
-  margin-top: 10px;}
-#top_image {
-  background-color: #efefef;
-  padding: 10px;
-  margin-top: 10px;}
-#feature, .article, #base_bar {
-  background-color: #efefef;
-  padding: 10px;
-  margin-top: 10px;}
-#tlNav {
-  background-color: #efefef;
-  padding: 10px;
-  margin-top: 10px;}
-#trNav {
-  background-color: #efefef;
-  padding: 10px;
-  margin-top: 10px;}
-#leftNav {
-  background-color: #efefef;
-  padding: 10px;
-  margin-top: 10px;}
-.column1, .colum2, .column3 {
-    background-color: #efefef;
-    width: 300px;
-    float: left;
-    margin: 10px;}
+  margin-top: 20px;
+  padding: 10px 0px 5px 0px;}
+#feature, .article {
+  height: 100px;}
 li {
   display: inline;
-  padding: 5px;}
+  padding: 5px}
 </style>
-
 </head>
-
+ 
 <body>
-<div class="container_12 clearfix">
-<!--HEADER (start)-->
-    <div id="header">
-      <h1>RSKC Logo, Facebook Link and Search Box</h1>
+  <div class="container_12 clearfix">
+    <div id="header" class="grid_12">
+      <h1>Logo, FB Link and Search Box</h1>
+        <div id="nav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+      </div>
     </div>
-<!--HEADER (end)-->
-  
-<!--TOP IMAGE (start)-->
-    <div id="top_image">
-      <p>Top Image</p>
-    </div>
-<!--TOP IMAGE (end)-->
-
-<!--TOP LEFT NAV (start)-->
-<div id="tlNav">
-  <div class="menuHolder">
-    <ul class="menu">
-      <li><a href="">Home</a></li>
-      <li><a href="">Spare 1</a></li>
-      <li><a href="">Spare 2</a></li>
-      <li><a href="">Spare 3</a></li>
-      <li><a href="">Spare 4</a></li>
-    </ul>
-  </div>
-</div>
-<div class="shadow"></div>
-<!--TOP LEFT NAV (end)-->
-
-<!--LOGO (start)-->
-    <div id="logo">
-      <p>LOGO</p>
-    </div>
-<!--LOGO (end)-->
-  
-<!--TOP RIGHT NAV (start)-->
-<div id="trNav">
-  <div class="menuHolder">
-    <ul class="menu">
-      <li><a href="">Spare 5</a></li>
-      <li><a href="">Spare 6</a></li>
-      <li><a href="">Spare 7</a></li>
-      <li><a href="">Spare 8</a></li>
-      <li><a href="">Spare 9</a></li>
-      </ul>
-  </div>
-</div>
-<div class="shadow"></div>
-<!--TOP RIGHT NAV (end)-->  
-
-  
-<!--MAIN CONTENT HOLDER (start)-->
-    <div id="content">
-
-<!--FEATURE (end)-->       
-    <div id="feature">
+    <div id="feature" class="grid_12">
         <p>Feature</p>
     </div>
-<!--FEATURE (end)--> 
-      
-<!--LEFT NAV (start)-->
-<div id="leftNav">
-  <div class="menuHolder2">
-    <ul class="menu2">
-      <li><a href="">Left Nav 1</a></li>
-      <li><a href="">Left Nav 2</a></li>
-      <li><a href="">Left Nav 3</a></li>
-      <li><a href="">Left Nav 4</a></li>
-      <li><a href="">Left Nav 5</a></li>
-    </ul>
-  </div>
-</div>
-<div class="shadow"></div>
-<!--LEFT NAV (end)-->
-      
-<!--COLUMN 1 CONTENT (start)-->   
-    <div class="article column1">
-        <p>Content 1</p>
+    <div class="article grid_4">
+        <p>Column One</p>
     </div>
-<!--COLUMN 1 CONTENT (end)-->
-
-<!--COLUMN 2 CONTENT (start)-->
-    <div class="article column2">
-        <p>Content Two</p>
+    <div class="article grid_4">
+        <p>Column Two</p>
     </div>
-<!--COLUMN 2 CONTENT (end)-->
-
-<!--COLUMN 3 CONTENT (start)-->
-    <div class="article column3">
-        <p>Content Three</p>
+    <div class="article grid_4">
+        <p>Column Three</p>
     </div>
-<!--COLUMN 3 CONTENT (end)-->
-
-</div>
-<!--MAIN CONTENT HOLDER (start)-->
-  
-<!--BASE BAR (start)-->
-    <div id="base_bar">
-        <p>Base Bar Content</p>
-    </div>  
-<!--BASE BAR (start)-->
-  
-<!--FOOTER (start)-->  
-    <div id="footer">
+    <div id="footer" class="grid_12">
         <p>&copy; Copyright 2018</p>
     </div>
-<!--FOOTER (end)-->
-
-<div> <!-- .container_12 -->
+  </div><!-- .container_12 -->
 </body>
 </html>
