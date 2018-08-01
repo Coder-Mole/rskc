@@ -36,10 +36,10 @@
 	float: left;
 	top: 19px;
 	position: absolute;
-	width: 300px; /*changed from 900px*/
+	width: 400px; /*changed from 900px*/
 	clear: both;
-	min-width: 300px; /*changed from 900px*/
-	max-width: 300px; /*changed from 900px*/
+	min-width: 400px; /*changed from 900px*/
+	max-width: 400px; /*changed from 900px*/
 	background-color: #000; /*Added Color Chage Test*/
 }
 -----
@@ -49,11 +49,11 @@
 
 .menuHolder .shadow {
 	height:10px;
-	width:98%; /*changed from 98%*/
+	width:98%;
 	top:-9px;
 	position:absolute;
 	z-index:100;
-	background:#888;
+	background:#fff; /*changed from #888*/
 	-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 	-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 	-o-box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
