@@ -120,7 +120,8 @@ ul.thumb li img.hover {
 	clear: none;
 	display: inline-block;
 	height: 75px;
-	background-color: #717070;
+/*	background-color: #717070; */
+	background-color: #C0C0C0;
 	width: 905px;
 }
 #info-bar {
