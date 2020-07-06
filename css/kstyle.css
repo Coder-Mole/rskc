@@ -116,7 +116,8 @@ ul.thumb li img.hover {
 	display: inline-block;
 }
 #top-nav-holder {
-	position: relative;
+/*	position: relative;*/
+	position: absolute;
 	float: left;
 	clear: none;
 	display: inline-block;
