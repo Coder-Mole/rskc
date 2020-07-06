@@ -119,10 +119,8 @@ ul.thumb li img.hover {
 	position: relative;
 	float: left;
 	clear: none;
-/*	display: inline-block; */
-	display: inline;
-/*	height: 75px; */
-	height: 80px;
+	display: inline-block;
+	height: 75px;
 /*	background-color: #717070; grey*/
 /*	background-color: #C0C0C0; silver*/
 /*	background-color: #aaa9ad; metalixc silver */
