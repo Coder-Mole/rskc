@@ -71,15 +71,16 @@ ul.thumb li img.hover {
 	width: 190px;
 	height: 127px;
 	position: relative;
-	float: left;
+/*	float: left; */
 	background-color: white;
 	display: inline-block;
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
-	clear: both;
+/*	clear: both; */
 }
 .titleHolder {
 	position: relative;
 	float: left;
+	clear: left; /*was none*/
 	width: 905px;
 /*	height: 30px; */
 	height: 110px;
@@ -89,7 +90,6 @@ ul.thumb li img.hover {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	display: inline-block;
-	clear: none;
 	border-bottom: 4px solid #B8860B;
 	text-align: center;
 }
@@ -130,10 +130,10 @@ ul.thumb li img.hover {
 }
 #info-bar {
 	text-align: left;
+	float: left;
 	clear: both;
 	position: relative;
 	width: 1090px;
-	float: left;
     	color: #ffffff;
 	background-color: #1a1110; /*licorice */
 	margin: 5px 0px 0px 0px;
