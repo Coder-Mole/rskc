@@ -80,8 +80,7 @@ ul.thumb li img.hover {
 .titleHolder {
 	position: relative;
 	float: left;
-/*	width: 905px; */
-	width: 100%;
+	width: 905px;
 	height: 30px;
 	background-color: #000000;
 	margin: 9px 0px 0px 0px;
@@ -123,7 +122,6 @@ ul.thumb li img.hover {
 	height: 77px;
 	background-color: #717070;
 	width: 905px;
-/*	width: 100%; */
 }
 #info-bar {
 	text-align: left;
