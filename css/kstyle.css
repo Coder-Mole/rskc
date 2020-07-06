@@ -122,7 +122,8 @@ ul.thumb li img.hover {
 	display: inline-block;
 	height: 77px;
 	background-color: #717070;
-	width: 905px;
+/*	width: 905px; */
+	width: 100%;
 }
 #info-bar {
 	text-align: left;
