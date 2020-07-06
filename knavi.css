@@ -106,12 +106,12 @@ ul.menu li a:hover {background:#aaa; color:#fff; padding:10px 10px 0 10px;}
 ul.menu li a.red:hover {
 	background:#c00;
 }
-ul.menu li a.orange:hover {background:black;}
-ul.menu li a.yellow:hover {background:black;}
-ul.menu li a.green:hover {background:black;}
-ul.menu li a.blue:hover {background:black;}
-ul.menu li a.indigo:hover {background:black;}
-ul.menu li a.violet:hover {background:black;}
+ul.menu li a.orange:hover {background:#000;}
+ul.menu li a.yellow:hover {background:#000;}
+ul.menu li a.green:hover {background:#000;}
+ul.menu li a.blue:hover {background:#000;}
+ul.menu li a.indigo:hover {background:#000;}
+ul.menu li a.violet:hover {background:#000;}
 
 /* vertical (side) menu */
 .menuHolder2 {
@@ -144,7 +144,7 @@ ul.menu2 {
 
 ul.menu2 li {margin:5px 0 0 0;}
 
-ul.menu2 li a {background:#aaa; color:#ddd; padding:0 15px; width:140px; display:block; text-decoration:none;
+ul.menu2 li a {background:#aaa; color:#fff /* was #ddd*/; padding:0 15px; width:140px; display:block; text-decoration:none;
 -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 -o-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -172,10 +172,10 @@ ul.menu2 li a.violet {background:#B8860B;}
 
 ul.menu2 li a:hover {background:#aaa; color:#fff; padding:0 15px 0 40px;}
 
-ul.menu2 li a.red:hover {background:black;}
-ul.menu2 li a.orange:hover {background:black;}
-ul.menu2 li a.yellow:hover {background:black;}
-ul.menu2 li a.green:hover {background:black;}
-ul.menu2 li a.blue:hover {background:black;}
-ul.menu2 li a.indigo:hover {background:black;}
-ul.menu2 li a.violet:hover {background:black;}
+ul.menu2 li a.red:hover {background:#000;}
+ul.menu2 li a.orange:hover {background:#000;}
+ul.menu2 li a.yellow:hover {background:#000;}
+ul.menu2 li a.green:hover {background:#000;}
+ul.menu2 li a.blue:hover {background:#000;}
+ul.menu2 li a.indigo:hover {background:#000;}
+ul.menu2 li a.violet:hover {background:#000;}
