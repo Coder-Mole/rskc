@@ -81,7 +81,7 @@ ul.thumb li img.hover {
 	position: relative;
 	float: left;
 	width: 905px;
-	height: 28px;
+	height: 30px;
 	background-color: #000000;
 	margin: 9px 0px 0px 0px;
 /*	padding: 10px 0px 0px 0px; */
@@ -119,7 +119,7 @@ ul.thumb li img.hover {
 	float: left;
 	clear: none;
 	display: inline-block;
-	height: 77px;
+	height: 75px;
 	background-color: #717070;
 	width: 905px;
 }
