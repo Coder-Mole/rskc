@@ -72,17 +72,17 @@ ul.thumb li img.hover {
 	height: 127px;
 	position: relative;
 	float: left;
-	background-color: white;
+	clear: left; /*was both;*/
+	background-color: #ffffff;
 	display: inline-block;
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
-	clear: left; /*was both;*/
+
 }
 .titleHolder {
 	position: relative;
 	float: left;
 	clear: left; /*was none*/
 	width: 905px;
-/*	height: 30px; */
 	height: 110px;
 	background-color: #000000;
 	margin: 9px 0px 0px 0px;
