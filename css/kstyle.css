@@ -53,10 +53,15 @@ ul.thumb li img.hover {
 }
 #container
 {
-	width: 1100px;
-	margin: 0 auto;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px:
+	padding-right: 0px;
+	padding-bpttom: 0px;
 	text-color: black;
-	min-width: 1100px;
 	text-align: center;
 	color: white;
 	font-size: large;
