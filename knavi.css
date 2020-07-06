@@ -75,7 +75,7 @@ ul.menu {
 
 ul.menu li {margin:0 5px 0 0; float:left;}
 
-ul.menu li a {color:#ddd; padding:0 10px; display:block; text-decoration:none;
+ul.menu li a {color:#fff/*was #ddd*/; padding:0 10px; display:block; text-decoration:none;
 -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 -o-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
