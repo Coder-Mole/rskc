@@ -90,7 +90,7 @@ ul.thumb li img.hover {
 	padding-bottom: 10px;
 	display: inline-block;
 	clear: none;
-	border-bottom: 2px solid #B8860B;
+	border-bottom: 4px solid #B8860B;
 	text-align: center;
 }
 .titleText {
@@ -118,7 +118,7 @@ ul.thumb li img.hover {
 #top-nav-holder {
 	position: relative;
 	float: left;
-	clear: none;
+	clear: left;
 	display: inline-block;
 /*	height: 75px; */
 	height: 80px;
