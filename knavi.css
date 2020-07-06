@@ -93,13 +93,13 @@ border-radius: 0 0 10px 10px;
 transition: all 0.2s ease-in-out;
 
 }
-ul.menu li a.red {background:gold;}
-ul.menu li a.orange {background:gold;}
-ul.menu li a.yellow {background:gold;}
-ul.menu li a.green {background:gold;}
-ul.menu li a.blue {background:gold;}
-ul.menu li a.indigo {background:gold;}
-ul.menu li a.violet {background:gold;}
+ul.menu li a.red {background:#B8860B;}
+ul.menu li a.orange {background:#B8860B;}
+ul.menu li a.yellow {background:#B8860B;}
+ul.menu li a.green {background:#B8860B;}
+ul.menu li a.blue {background:#B8860B;}
+ul.menu li a.indigo {background:#B8860B;}
+ul.menu li a.violet {background:#B8860B;}
 
 ul.menu li a:hover {background:#aaa; color:#fff; padding:10px 10px 0 10px;}
 
@@ -162,13 +162,13 @@ border-radius:0 10px 10px 0;
 transition: all 0.3s ease-in-out;
 }
 
-ul.menu2 li a.red {background:gold;}
-ul.menu2 li a.orange {background:gold;}
-ul.menu2 li a.yellow {background:gold;}
-ul.menu2 li a.green {background:gold;}
-ul.menu2 li a.blue {background:gold;}
-ul.menu2 li a.indigo {background:gold;}
-ul.menu2 li a.violet {background:gold;}
+ul.menu2 li a.red {background:#B8860B;}
+ul.menu2 li a.orange {background:#B8860B;}
+ul.menu2 li a.yellow {background:#B8860B;}
+ul.menu2 li a.green {background:#B8860B;}
+ul.menu2 li a.blue {background:#B8860B;}
+ul.menu2 li a.indigo {background:#B8860B;}
+ul.menu2 li a.violet {background:#B8860B;}
 
 ul.menu2 li a:hover {background:#aaa; color:#fff; padding:0 15px 0 40px;}
 
