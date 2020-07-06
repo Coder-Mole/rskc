@@ -72,7 +72,7 @@ ul.thumb li img.hover {
 	height: 127px;
 	position: relative;
 	float: left;
-	clear: both;
+	clear: none;
 	background-color: #ffffff;
 	display: inline-block;
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
