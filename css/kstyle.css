@@ -71,11 +71,11 @@ ul.thumb li img.hover {
 	width: 190px;
 	height: 127px;
 	position: relative;
-/*	float: left; */
+	float: left;
 	background-color: white;
 	display: inline-block;
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
-/*	clear: both; */
+	clear: left; /*was both;*/
 }
 .titleHolder {
 	position: relative;
