@@ -81,7 +81,7 @@ ul.thumb li img.hover {
 .titleHolder {
 	position: relative;
 	float: left;
-	clear: left; /*was none*/
+	clear: none;
 	width: 905px;
 	height: 110px;
 	background-color: #000000;
