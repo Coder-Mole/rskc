@@ -93,25 +93,25 @@ border-radius: 0 0 10px 10px;
 transition: all 0.2s ease-in-out;
 
 }
-ul.menu li a.red {background:green;}
-ul.menu li a.orange {background:green;}
-ul.menu li a.yellow {background:green;}
-ul.menu li a.green {background:green;}
-ul.menu li a.blue {background:green;}
-ul.menu li a.indigo {background:green;}
-ul.menu li a.violet {background:green;}
+ul.menu li a.red {background:gold;}
+ul.menu li a.orange {background:gold;}
+ul.menu li a.yellow {background:gold;}
+ul.menu li a.green {background:gold;}
+ul.menu li a.blue {background:gold;}
+ul.menu li a.indigo {background:gold;}
+ul.menu li a.violet {background:gold;}
 
 ul.menu li a:hover {background:#aaa; color:#fff; padding:10px 10px 0 10px;}
 
 ul.menu li a.red:hover {
 	background:#c00;
 }
-ul.menu li a.orange:hover {background:orange;}
-ul.menu li a.yellow:hover {background:yellow;}
-ul.menu li a.green:hover {background:green;}
-ul.menu li a.blue:hover {background:blue;}
-ul.menu li a.indigo:hover {background:indigo;}
-ul.menu li a.violet:hover {background:violet;}
+ul.menu li a.orange:hover {background:black;}
+ul.menu li a.yellow:hover {background:black;}
+ul.menu li a.green:hover {background:black;}
+ul.menu li a.blue:hover {background:black;}
+ul.menu li a.indigo:hover {background:black;}
+ul.menu li a.violet:hover {background:black;}
 
 /* vertical (side) menu */
 .menuHolder2 {
@@ -162,20 +162,20 @@ border-radius:0 10px 10px 0;
 transition: all 0.3s ease-in-out;
 }
 
-ul.menu2 li a.red {background:green;}
-ul.menu2 li a.orange {background:green;}
-ul.menu2 li a.yellow {background:green;}
-ul.menu2 li a.green {background:green;}
-ul.menu2 li a.blue {background:green;}
-ul.menu2 li a.indigo {background:green;}
-ul.menu2 li a.violet {background:green;}
+ul.menu2 li a.red {background:gold;}
+ul.menu2 li a.orange {background:gold;}
+ul.menu2 li a.yellow {background:gold;}
+ul.menu2 li a.green {background:gold;}
+ul.menu2 li a.blue {background:gold;}
+ul.menu2 li a.indigo {background:gold;}
+ul.menu2 li a.violet {background:gold;}
 
 ul.menu2 li a:hover {background:#aaa; color:#fff; padding:0 15px 0 40px;}
 
-ul.menu2 li a.red:hover {background:red;}
-ul.menu2 li a.orange:hover {background:orange;}
-ul.menu2 li a.yellow:hover {background:yellow;}
-ul.menu2 li a.green:hover {background:green;}
-ul.menu2 li a.blue:hover {background:blue;}
-ul.menu2 li a.indigo:hover {background:indigo;}
-ul.menu2 li a.violet:hover {background:violet;}
+ul.menu2 li a.red:hover {background:black;}
+ul.menu2 li a.orange:hover {background:black;}
+ul.menu2 li a.yellow:hover {background:black;}
+ul.menu2 li a.green:hover {background:black;}
+ul.menu2 li a.blue:hover {background:black;}
+ul.menu2 li a.indigo:hover {background:black;}
+ul.menu2 li a.violet:hover {background:black;}
