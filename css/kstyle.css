@@ -134,8 +134,8 @@ ul.thumb li img.hover {
 	position: relative;
 	width: 1090px;
 	float: left;
-    	color: black;
-	background-color: white;
+    	color: #1a1110; /*licorice */
+	background-color: #ffffff;
 	margin: 5px 0px 0px 0px;
 	padding: 5px 5px 5px 5px;
 }
