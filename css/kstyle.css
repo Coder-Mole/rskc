@@ -51,32 +51,18 @@ ul.thumb li img.hover {
 {
     float: right;
 }
+
 #container
 {
 	width: 1100px;
 	margin: 0 auto;
-	text-color: black;
-	min-width: 1100px;
-	text-align: center;
-	color: white;
-	font-size: large;
-}
-}
-/*#container
-{
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	border-bottom-width: 0px;
-	padding-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
 	text-color: #000000;
+	min-width: 1100px;
 	text-align: center;
 	color: #ffffff;
 	font-size: large;
-} */
+}
+
 #logo {
 	margin: 9px 5px 0px 0px;
 	width: 190px;
@@ -93,7 +79,8 @@ ul.thumb li img.hover {
 	position: relative;
 	float: left;
 	clear: none;
-	width: 905px;
+/*	width: 905px; */
+	width: 1100px;
 	height: 113px;
 	background-color: #000000;
 	margin: 9px 0px 0px 0px;
@@ -138,7 +125,8 @@ ul.thumb li img.hover {
 /*	background-color: #C0C0C0; silver*/
 /*	background-color: #aaa9ad; metalixc silver */
 	background-color: #a8a9ad; /*Chrome aluminium */
-	width: 905px;
+/*	width: 905px; */
+	width: 1100px;
 }
 #info-bar {
 	text-align: left;
