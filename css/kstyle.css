@@ -155,6 +155,7 @@ ul.thumb li img.hover {
 	width: 1000px;
     	color: #ffffff;
 	background-color: #1a1110; /*licorice */
+	margin: 5px 0px 0px 0px;
 	padding: 5px 0px 5px 0px;
 }
 .navbar-left {
