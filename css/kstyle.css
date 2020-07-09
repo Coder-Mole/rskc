@@ -113,7 +113,7 @@ ul.thumb li img.hover {
 	background-color: red;
 	display: inline-block;
 }
-#top-nav-holder {
+#top-nav-holder-left {
 	position: relative;
 	float: left;
 	clear: none;
@@ -125,9 +125,24 @@ ul.thumb li img.hover {
 /*	background-color: #C0C0C0; silver*/
 /*	background-color: #aaa9ad; metalixc silver */
 	background-color: #a8a9ad; /*Chrome aluminium */
-/*	width: 905px; */
-	width: 1000px;
+	width: 905px;
 }
+
+#top-nav-holder-right {
+	position: relative;
+	float: right;
+	clear: none;
+	display: inline-block;
+	height: 57px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+/*	background-color: #717070; grey*/
+/*	background-color: #C0C0C0; silver*/
+/*	background-color: #aaa9ad; metalixc silver */
+	background-color: #a8a9ad; /*Chrome aluminium */
+	width: 905px;
+}
+
 #info-bar {
 	text-align: left;
 	float: left;
