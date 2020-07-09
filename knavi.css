@@ -66,11 +66,10 @@ ul.menu {
 	list-style: none;
 	display: inline-block;
 	float: left;
-	text-align: center; /* new */
 	height: inherit;
 	position: static;
 	padding: 0px 0px 0px 35px;
-	width: 405px; /* was 900 */
+	width: 405px;
 	clear: both;
 }
 
