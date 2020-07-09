@@ -1,7 +1,7 @@
 -----
 .nav,
 .nav ul {padding:0; margin:0; list-style:none; position:relative; float:left;}
-.nav a {display:block; padding:0; position:relative; line-height:25px; text-decoration:none; color:#000; font-family:arial, sans-serif; font-size:12px;}
+.nav a {display:block; padding:0; position:relative; line-height:25px; width: 25%; text-decoration:none; color:#000; font-family:arial, sans-serif; font-size:12px;}
 .nav b {display:block; padding:0 10px; float:left; position:relative; cursor:pointer;}
 
 .nav li.level1-li {float:left; clear:left; height:25px;}
@@ -30,16 +30,17 @@
 .four {top:75px;}
 .five {top:100px;}
 
+/* horizontal (top) menu */
 .menuHolder {
 	height: inherit;
 	overflow: hidden;
 	float: left;
 	top: 19px;
 	position: absolute;
-	width: 405px; /* was 900 */
+	width: 405px;
 	clear: both;
-	min-width: 405px; /* was 900 */
-	max-width: 405px; /* was 900 */
+	min-width: 405px;
+	max-width: 405px;
 }
 -----
 
