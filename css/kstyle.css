@@ -126,7 +126,6 @@ ul.thumb li img.hover {
 	width: 405px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin: 0px 0px 0px 5px;
 /*	background-color: #717070; grey*/
 /*	background-color: #C0C0C0; silver*/
 /*	background-color: #aaa9ad; metalixc silver */
@@ -142,7 +141,6 @@ ul.thumb li img.hover {
 	width: 405px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin: 0px 5px 0px 0px;
 /*	background-color: #717070; grey*/
 /*	background-color: #C0C0C0; silver*/
 /*	background-color: #aaa9ad; metalixc silver */
@@ -157,8 +155,7 @@ ul.thumb li img.hover {
 	width: 1000px;
     	color: #ffffff;
 	background-color: #1a1110; /*licorice */
-	margin: 0px 0px 0px 0px;
-	padding: 5px 0px 5px 5px; /* added last 5px*/
+	padding: 5px 0px 5px 0px;
 }
 .navbar-left {
 	width: 245px;
