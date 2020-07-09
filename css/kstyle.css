@@ -63,18 +63,6 @@ ul.thumb li img.hover {
 	font-size: large;
 }
 
-#logo {
-	margin: 9px 5px 0px 0px;
-	width: 190px;
-	height: 57px;
-	position: relative;
-	float: left;
-	clear: none;
-	background-color: #ffffff;
-	display: inline-block;
-/*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
-
-}
 .titleHolder {
 	position: relative;
 	float: left;
@@ -102,9 +90,11 @@ ul.thumb li img.hover {
 	display: block;
 	padding: 0px 0px 0px 0px;
 }
+
 .span {
 	color: #B8860B;
 }
+
 #title-edge-shadow {
 	position: relative;
 	width: 8px;
@@ -113,34 +103,49 @@ ul.thumb li img.hover {
 	background-color: red;
 	display: inline-block;
 }
+
+#logo {
+/*	margin: 9px 5px 0px 0px; */
+	position: relative;
+	float: left;
+	clear: none;
+	display: inline-block;
+	height: 57px;
+	width: 190px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #ffffff;
+/*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
+
+}
 #top-nav-holder-left {
 	position: relative;
 	float: left;
 	clear: none;
 	display: inline-block;
 	height: 57px;
+	width: 405px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 /*	background-color: #717070; grey*/
 /*	background-color: #C0C0C0; silver*/
 /*	background-color: #aaa9ad; metalixc silver */
 	background-color: #a8a9ad; /*Chrome aluminium */
-	width: 405px;
 }
 
 #top-nav-holder-right {
 	position: relative;
-	float: right;
+	float: left;
 	clear: none;
 	display: inline-block;
 	height: 57px;
+	width: 405px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 /*	background-color: #717070; grey*/
 /*	background-color: #C0C0C0; silver*/
 /*	background-color: #aaa9ad; metalixc silver */
 	background-color: #a8a9ad; /*Chrome aluminium */
-	width: 405px;
 }
 
 #info-bar {
