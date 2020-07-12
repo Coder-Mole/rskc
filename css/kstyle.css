@@ -75,7 +75,7 @@ ul.thumb li img.hover {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	display: inline-block;
-	border-bottom: 4px solid #B8860B;
+	border-bottom: 4px solid none;
 	text-align: center;
 }
 
