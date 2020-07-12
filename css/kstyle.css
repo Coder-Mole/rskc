@@ -101,6 +101,7 @@ ul.thumb li img.hover {
 	border-bottom: 4px solid #B8860B;
 	text-align: center;
 	background-image: url(https://coder-mole.github.io/rskc/images/rskc_top_image.png); /* trying to add main page image */
+	repeat: none;
 }
 
 }
