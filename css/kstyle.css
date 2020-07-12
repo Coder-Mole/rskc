@@ -69,6 +69,7 @@ ul.thumb li img.hover {
 	clear: none;
 	width: 1000px;
 	height: 113px;
+	overflow: hidden;
 	background-color: #000000;
 	margin: 9px 0px 0px 0px;
 /*	padding: 10px 0px 0px 0px; */
