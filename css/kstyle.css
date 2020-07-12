@@ -79,6 +79,12 @@ ul.thumb li img.hover {
 	text-align: center;
 }
 
+.titleText {
+	font-family: Playball-Regular;
+	font-size: 40px;
+	letter-spacing: -1px;
+}
+
 .topImageHolder {
 	position: relative;
 	float: left;
@@ -97,11 +103,12 @@ ul.thumb li img.hover {
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_top_image.png); /* trying to add main page image */
 }
 
-.titleText {
-	font-family: Playball-Regular;
-	font-size: 40px;
-	letter-spacing: -1px;
+#topImage {
+	height: auto;
+	width: auto;
+	background-image: url(https://coder-mole.github.io/rskc/images/rskc_top_image.png); */
 }
+
 .left_headText1 {
 	font-size: 28px;
 	text-align: left;
@@ -138,6 +145,12 @@ ul.thumb li img.hover {
 	overflow: visible; /* new to make image show with overlap... hopefully! */
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
 }
+
+#logoImage_1 {
+	height: 57px;
+	width: 190px;
+	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo_1.png); */
+}
 	
 #logo_2 {
 /*	margin: 9px 5px 0px 0px; */
@@ -154,6 +167,12 @@ ul.thumb li img.hover {
 	background-color: #ffffff;
 	overflow: visible; /* new to make image show with overlap... hopefully! */
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
+}
+
+#logoImage_2 {
+	height: 57px;
+	width: 190px;
+	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo_2.png); */
 }
 
 #top-nav-holder-left {
