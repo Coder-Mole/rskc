@@ -77,7 +77,7 @@ ul.thumb li img.hover {
 	display: inline-block;
 	border-bottom: 4px solid #B8860B;
 	text-align: center;
-	background-image: url(https://coder-mole.github.io/rskc/images/rskc_top_image.png); /* trying to add main page image */
+/*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_top_image.png); /* trying to add main page image */
 }
 .titleText {
 	font-family: Playball-Regular;
