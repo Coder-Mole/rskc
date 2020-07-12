@@ -110,7 +110,8 @@ ul.thumb li img.hover {
 	float: left;
 	clear: none;
 	display: inline-block;
-	height: 57px;
+/*	height: 57px; */
+	height: auto;
 	width: 190px;
 /*	vertical-align: middle; */
 	z-index: 1;
