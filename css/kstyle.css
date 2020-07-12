@@ -52,8 +52,7 @@ ul.thumb li img.hover {
     float: right;
 }
 
-#container
-{
+#container {
 	width: 1000px;
 	margin: 0 auto;
 	text-color: #000000;
@@ -104,8 +103,6 @@ ul.thumb li img.hover {
 /*	background-repeat: no-repeat; */
 }
 
-}
-
 .left_headText1 {
 	font-size: 28px;
 	text-align: left;
@@ -142,8 +139,6 @@ ul.thumb li img.hover {
 	overflow: visible; /* new to make image show with overlap... hopefully! */
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
 }
-
-}
 	
 #logo_2 {
 /*	margin: 9px 5px 0px 0px; */
@@ -160,8 +155,6 @@ ul.thumb li img.hover {
 	background-color: #ffffff;
 	overflow: visible; /* new to make image show with overlap... hopefully! */
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
-}
-
 }
 
 #top-nav-holder-left {
