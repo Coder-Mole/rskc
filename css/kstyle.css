@@ -69,6 +69,22 @@ ul.thumb li img.hover {
 	clear: none;
 	width: 1000px;
 	height: 113px;
+	background-color: #000000;
+	margin: 9px 0px 0px 0px;
+/*	padding: 10px 0px 0px 0px; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+	border-bottom: 4px solid #B8860B;
+	text-align: center;
+}
+
+.topImageHolder {
+	position: relative;
+	float: left;
+	clear: none;
+	width: 1000px;
+	height: 113px;
 	overflow: hidden;
 	background-color: #000000;
 	margin: 9px 0px 0px 0px;
@@ -80,6 +96,7 @@ ul.thumb li img.hover {
 	text-align: center;
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_top_image.png); /* trying to add main page image */
 }
+
 .titleText {
 	font-family: Playball-Regular;
 	font-size: 40px;
