@@ -70,12 +70,12 @@ ul.thumb li img.hover {
 	width: 1000px;
 	height: 113px;
 	background-color: #000000;
-	margin: 9px 0px 0px 0px;
+	margin: 9px 0px 9px 0px;
 /*	padding: 10px 0px 0px 0px; */
 	padding-top: 10px;
 	padding-bottom: 10px;
 	display: inline-block;
-	border-bottom: 4px solid transparent;
+	border-bottom: 4px solid #a8a9ad;
 	text-align: center;
 }
 
