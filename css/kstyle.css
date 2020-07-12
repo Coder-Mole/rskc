@@ -110,8 +110,7 @@ ul.thumb li img.hover {
 	float: left;
 	clear: none;
 	display: inline-block;
-/*	height: 57px; */
-	height: 112px;
+	height: 57px;
 	width: 190px;
 /*	vertical-align: middle; */
 	z-index: 1;
@@ -119,7 +118,7 @@ ul.thumb li img.hover {
 	padding-bottom: 10px;
 	background-color: #ffffff;
 	overflow: visible; /* new to make image show with overlap... hopefully! */
-	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png);
+/*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
 }
 	
 #logo_2 {
