@@ -140,7 +140,9 @@ ul.thumb li img.hover {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #ffffff;
-	overflow: visible; /* new to make image show with overlap... hopefully! */
+	overflow: hidden;
+	object-fit: contain;
+/*	overflow: visible; /* new to make image show with overlap... hopefully! */
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_logo.png); */
 }
 	
