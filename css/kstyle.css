@@ -68,7 +68,8 @@ ul.thumb li img.hover {
 	position: relative;
 	float: left;
 	clear: none;
-	width: 1000px;
+/*	width: 1000px; */
+	width: 900px;
 	height: 113px;
 	background-color: #000000;
 	margin: 9px 0px 9px 0px;
@@ -90,7 +91,8 @@ ul.thumb li img.hover {
 	position: relative;
 	float: left;
 	clear: none;
-	width: 1000px;
+/*	width: 1000px; */
+	width: 900px;
 	height: 200px;
 	overflow: hidden;
 	background-color: #ffffff;
@@ -194,8 +196,9 @@ ul.thumb li img.hover {
 	float: left;
 	clear: both;
 	position: relative;
-	width: 1000px;
-    	color: #ffffff;
+/*	width: 1000px; */
+	width: 900px;
+    color: #ffffff;
 	background-color: #1a1110; /*licorice */
 	margin: 5px 0px 0px 0px;
 	padding: 5px 0px 5px 0px;
@@ -222,7 +225,8 @@ ul.thumb li img.hover {
 	position: relative;
 	float: left;
 	clear: both;
-	width: 1000px;
+/*	width: 1000px; */
+	width: 900px;
 	height: auto;
 	background-color: #ffffff;
 	margin: 5px 0px 5px 0px;
@@ -231,7 +235,8 @@ ul.thumb li img.hover {
 	font-family: Tahoma;
 	font-size: 16px;
 	color: #000000;
-	width: 755px;
+/*	width: 755px; */
+	width: 655px;
 	margin-bottom: -7px;
 	position: relative;
 	float: right;
@@ -295,7 +300,8 @@ ul.thumb li img.hover {
 	text-align: center;
 	clear: both;
 	position: relative;
-	width: 1000px;
+/*	width: 1000px; */
+	width: 900px;
 	float: left;
 	background-color: #FFFFFF;
 	margin-bottom: 5px;
