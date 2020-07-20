@@ -167,7 +167,9 @@ ul.thumb li img.hover {
 	clear: none;
 	display: inline-block;
 	height: 57px;
-	width: 405px;
+/*	width: 405px; */
+	width: 355px;
+	min-width: 355px
 	padding-top: 10px;
 	padding-bottom: 10px;
 /*	background-color: #717070; grey*/
@@ -182,7 +184,9 @@ ul.thumb li img.hover {
 	clear: none;
 	display: inline-block;
 	height: 57px;
-	width: 405px;
+/*	width: 405px; */
+	width: 355px;
+	min-width: 355px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 /*	background-color: #717070; grey*/
