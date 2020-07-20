@@ -139,7 +139,8 @@ ul.thumb li img.hover {
 	z-index: 1;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #ffffff;
+/*	background-color: #ffffff; */
+	background-color: clear;
 	overflow: hidden;
 	object-fit: fill;
 /*	overflow: visible; /* new to make image show with overlap... hopefully! */
