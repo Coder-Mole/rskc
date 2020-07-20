@@ -24,7 +24,7 @@ ul.thumb li img {
 	top: 5px;
 }
 ul.thumb li img.hover {
-	background:url(file:///C|/Users/Patrick/Desktop/thumb_bg.png) no-repeat center center;
+	background:url(file:///C|/Users/Patrick/Desktop/thumb_bg.png) no-repeat center;
 	border: none;
 }
 /*Hover Images (end)*/
@@ -55,10 +55,9 @@ ul.thumb li img.hover {
 #container {
 	width: 900px;
 	margin: 0 auto;
-	text-color: #000000;
 	min-width: 900px;
-	text-align: center;
-	color: #ffffff;
+	text-align: left;
+	background-color: #ffffff;
 	font-size: large;
 }
 
@@ -75,7 +74,7 @@ ul.thumb li img.hover {
 	padding-bottom: 10px;
 	display: inline-block;
 	border-bottom: 4px solid #a8a9ad;
-	text-align: center;
+/*	text-align: center;*/
 }
 
 .titleText {
@@ -98,7 +97,7 @@ ul.thumb li img.hover {
 	padding-bottom: 10px;
 	display: inline-block;
 	border-bottom: 4px solid #B8860B;
-	text-align: center;
+/*	text-align: center; */
 /*	background-image: url(https://coder-mole.github.io/rskc/images/rskc_top_image.png); /* trying to add main page image */
 /*	background-repeat: no-repeat; */
 }
@@ -216,22 +215,11 @@ ul.thumb li img.hover {
 	width: 725px;
 	float: left;
 }
-.content-upper {
-	font-family: Tahoma;
-	font-size: 16px;
-	color: #000000;
-	position: relative;
-	float: left;
-	clear: both;
-	width: 900px;
-	height: auto;
-	background-color: #ffffff;
-	margin: 5px 0px 5px 0px;
-}
+
 .content {
-	font-family: Tahoma;
-	font-size: 16px;
-	color: #000000;
+/*	font-family: Tahoma; */
+/*	font-size: 16px; */
+/*	color: #000000; */
 	position: relative;
 	float: left;
 	clear: both;
@@ -240,20 +228,8 @@ ul.thumb li img.hover {
 	background-color: #ffffff;
 	margin: 5px 0px 5px 0px;
 }
-.content-lower {
-	font-family: Tahoma;
-	font-size: 16px;
-	text-align: left;
-	color: #000000;
-	position: relative;
-	float: left;
-	clear: both;
-	width: 900px;
-	height: auto;
-	background-color: #ffffff;
-	padding: 2px 2px 2px 0px;
-}
-.main-content {
+
+.main-content { /* other content control - this overrides the container formatting but messes up text align under side nav */
 	font-family: Tahoma;
 	font-size: 16px;
 	color: #000000;
@@ -276,27 +252,28 @@ ul.thumb li img.hover {
 .brown-text {
 	color: brown;
 }
-#container .content .main-content .centre strong {
+#container .content .main-content .center strong {
 	font-size: 30px;
 }
-.centreText1
-{
-	text-align: center;
+
+.centerText1 {
+	text-align: left;
+/*	text-align: center; */
 	display: block;
 	padding: 10px 10px 5px 10px;
 	font-size: 24px;
 	font-family: Playball-Regular;
 }
-.centreText2
-{
-	text-align: center;
+.centerText2 {
+	text-align: left;
+/*	text-align: center; */
 	display: block;
 	padding: 10px 10px 5px 10px;
 	font-size: 16px;
 }
-.centreImage
-{
-	text-align: center;
+.centerImage {
+	text-align: left;
+/*	text-align: center; */
 	display: block;
 	padding: 10px 10px 5px 10px;
 	font-size: 16px;
@@ -320,7 +297,6 @@ ul.thumb li img.hover {
 	text-align: center;
 	clear: both;
 	position: relative;
-/*	width: 1000px; */
 	width: 900px;
 	float: left;
 	background-color: #FFFFFF;
