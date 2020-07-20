@@ -53,11 +53,9 @@ ul.thumb li img.hover {
 }
 
 #container {
-/*	width: 1000px; */
 	width: 900px;
 	margin: 0 auto;
 	text-color: #000000;
-/*	min-width: 1000px; */
 	min-width: 900px;
 	text-align: center;
 	color: #ffffff;
@@ -68,7 +66,6 @@ ul.thumb li img.hover {
 	position: relative;
 	float: left;
 	clear: none;
-/*	width: 1000px; */
 	width: 900px;
 	height: 113px;
 	background-color: #000000;
@@ -91,7 +88,6 @@ ul.thumb li img.hover {
 	position: relative;
 	float: left;
 	clear: none;
-/*	width: 1000px; */
 	width: 900px;
 	height: 200px;
 	overflow: hidden;
@@ -170,7 +166,6 @@ ul.thumb li img.hover {
 	clear: none;
 	display: inline-block;
 	height: 57px;
-/*	width: 405px; */
 	width: 355px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -186,7 +181,6 @@ ul.thumb li img.hover {
 	clear: none;
 	display: inline-block;
 	height: 57px;
-/*	width: 405px; */
 	width: 355px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -201,7 +195,6 @@ ul.thumb li img.hover {
 	float: left;
 	clear: both;
 	position: relative;
-/*	width: 1000px; */
 	width: 900px;
     color: #ffffff;
 	background-color: #1a1110; /*licorice */
@@ -223,6 +216,18 @@ ul.thumb li img.hover {
 	width: 725px;
 	float: left;
 }
+.content-upper {
+	font-family: Tahoma;
+	font-size: 16px;
+	color: #000000;
+	position: relative;
+	float: left;
+	clear: both;
+	width: 900px;
+	height: auto;
+	background-color: #ffffff;
+	margin: 5px 0px 5px 0px;
+}
 .content {
 	font-family: Tahoma;
 	font-size: 16px;
@@ -230,24 +235,34 @@ ul.thumb li img.hover {
 	position: relative;
 	float: left;
 	clear: both;
-/*	width: 1000px; */
 	width: 900px;
 	height: auto;
 	background-color: #ffffff;
 	margin: 5px 0px 5px 0px;
 }
+.content-lower {
+	font-family: Tahoma;
+	font-size: 16px;
+	text-align: left;
+	color: #000000;
+	position: relative;
+	float: left;
+	clear: both;
+	width: 900px;
+	height: auto;
+	background-color: #ffffff;
+	padding: 2px 2px 2px 0px;
+}
 .main-content {
 	font-family: Tahoma;
 	font-size: 16px;
 	color: #000000;
-/*	width: 755px; */
 	width: 655px;
 	margin-bottom: -7px;
 	position: relative;
 	float: right;
 	text-align: left;
 	height: 100%;
-	color: #000000; /*was #2f4f4f - Dark Slate Grey*/
 	margin-left: auto;
 	padding: 0px 5px 40px 5px;
 	clear: right;
