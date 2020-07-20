@@ -69,7 +69,8 @@ ul.menu {
 	height: inherit;
 	position: static;
 	padding: 0px 0px 0px 35px;
-	width: 405px;
+/*	width: 405px; */
+	width: 355px;
 	clear: both;
 }
 
